@@ -4,7 +4,7 @@ zf2extentions
 Extentions for Zend Framework 2
 
 RV\zf2ext\Http\Header
-=====================
+---------------------
 
 Example:
 use RV\zf2ext\Http\Header;
