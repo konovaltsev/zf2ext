@@ -1,14 +1,7 @@
 <?php
-/**
- *
- */
-
 namespace RV\zf2ext\Http\Header;
 
-
-use Zend\Http\Headers;
-
-trait FromValue
+trait ValueTrait
 {
 	/**
 	 * @param $value
@@ -16,7 +9,7 @@ trait FromValue
 	 */
 	public static function fromValue($value)
 	{
-		/** @var FromValue $header  */
+		/** @var ValueInterface $header */
 		$header = new static();
 		$header->setValue($value);
 		return $header;

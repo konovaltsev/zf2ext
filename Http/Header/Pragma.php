@@ -6,7 +6,7 @@ namespace RV\zf2ext\Http\Header;
 
 class Pragma extends \Zend\Http\Header\Pragma implements ValueInterface
 {
-	use FromValue;
+	use ValueTrait;
 
 	const NO_CACHE = 'no-cache';
 

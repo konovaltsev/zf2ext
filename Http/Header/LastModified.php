@@ -6,7 +6,7 @@ namespace RV\zf2ext\Http\Header;
 
 class LastModified extends \Zend\Http\Header\LastModified implements ValueInterface
 {
-	use FromValue;
+	use ValueTrait;
 
 	const NOW = 'now';
 
