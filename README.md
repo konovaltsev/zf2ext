@@ -7,6 +7,7 @@ RV\zf2ext\Http\Header
 ---------------------
 
 Example:
+```php
 use RV\zf2ext\Http\Header;
 ...
 $response->getHeaders()
@@ -14,3 +15,4 @@ $response->getHeaders()
 			->addHeader(Header\LastModified::fromValue(Header\LastModified::NOW))
 			->addHeader(Header\CacheControl::fromValue(Header\CacheControl::NO_CACHE))
 			->addHeader(Header\Pragma::fromValue(Header\Pragma::NO_CACHE))
+```
